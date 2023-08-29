@@ -1,4 +1,4 @@
-# STATIC JOB LISTINGS MASTER
+# INTERACTIVE RATING
 
 ## This project is based on one of the [Frontend Mentor](https://www.frontendmentor.io/) challenges.
 
