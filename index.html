@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Interactive Rating</title>
+</head>
+<body>
+  <main class="container">
+    <div
+    id="content-how-did"
+    class="content-how-did-we-do">
+      <div class="icon-star">
+        <img  src="./images/icon-star.svg" alt="Icono de Estrella" />
+      </div>
+      <h1 class="title">How did we do?</h1>
+      <p class="description">Please let us know how we did with your support request. All feedback is appreclated to help us improve our offering!</p>
+      <ul class="option-numbers">
+        <li class="option-number">1</li>
+        <li class="option-number">2</li>
+        <li class="option-number">3</li>
+        <li class="option-number">4</li>
+        <li class="option-number">5</li>
+      </ul>
+      <button id="btn-send" class="sending">Submit</button>
+    </div>
+    <div
+    id="content-thank-you"
+    class="content-thank-you content-hidden">
+      <img class="icon-thank-you" src="./images/illustration-thank-you.svg" alt="Icono">
+      <div class="result-selected">
+        <p>You selected <span id="option-number-selected"></span> out of 5</p>
+      </div>
+      <h1 class="title">Thank you!</h1>
+      <p class="description">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      <button class="btnGoBack" id="btn-go-back">Regresar</button>
+    </div>
+  </main>
+  <script  src="./scrip.js"></script>
+</body>
+</html>
